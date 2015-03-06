@@ -1,24 +1,40 @@
-#
-# BOOK CATALOGUE
-#
-# @copyright 2010 Evan Leybourn
-# @license GNU General Public License
-# 
-# This file is part of Book Catalogue.
-#
-# Book Catalogue is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# Book Catalogue is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with Book Catalogue.  If not, see <http://www.gnu.org/licenses/>.
-#
+# Bibliography - Book Catalog App for Android
+A book cataloging app for android phones.
+
+## Description
+This is a mobile book catalog app based on [Book-Catalogue](https://github.com/eleybourn/Book-Catalogue).
+
+The main goal of this fork is to completely support the national bibliography of greece and provide an open 
+source tool for cataloging books in greek libraries.
+
+## BOOK CATALOGUE
+
+@copyright 2010 Evan Leybourn  
+@license GNU General Public License
+
+This file is part of Book Catalogue.
+
+Book Catalogue is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Book Catalogue is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Book Catalogue.  If not, see <http://www.gnu.org/licenses/>.
+
+This is an open source Android application. Please feel free to fork, bug fix 
+and commit back. 
+
+This is a simple book catalogue application, to store a list of your books. 
+Books can be added either manually, by ISBN, or by barcode. 
+
+You should have received a copy of the GNU General Public License
+along with Book Catalogue.  If not, see <http://www.gnu.org/licenses/>.
 
 This is an open source Android application. Please feel free to fork, bug fix 
 and commit back. 
@@ -43,7 +59,7 @@ Features include;
 
 new in 5.1.0
 * Italian translation (Eugenio Davolio)
-* Spanish translation (José M. Galdo)
+* Spanish translation (Josï¿½ M. Galdo)
 * Turkish translations (Emir Sari)
 * Ability to archive only new/updated books and to exclude covers (or books)
 * Better thumbnail size in lists for high density screens
@@ -462,4 +478,3 @@ New in v1.02
 * The, An, and A should be listed after the title. e.g. "The Trigger" becomes
   "Trigger, The"
 * Books lists should sort by Series, Series #, then Author (or Title)
-
