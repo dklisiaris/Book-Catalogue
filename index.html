@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Bibliography-android by dklisiaris</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Bibliography-android</h1>
+        <h2>A book cataloging tool for Android phones. </h2>
+        <a href="https://github.com/dklisiaris/bibliography-android" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="bibliography---book-catalog-app-for-android" class="anchor" href="#bibliography---book-catalog-app-for-android" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bibliography - Book Catalog App for Android</h1>
+
+<p>A book cataloging app for android phones.</p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>This is a mobile book catalog app based on <a href="https://github.com/eleybourn/Book-Catalogue">Book-Catalogue</a>.</p>
+
+<p>The main goal of this fork is to completely support the national bibliography of greece and provide an open 
+source tool for cataloging books in greek libraries.</p>
+
+<h2>
+<a id="book-catalogue" class="anchor" href="#book-catalogue" aria-hidden="true"><span class="octicon octicon-link"></span></a>BOOK CATALOGUE</h2>
+
+<p><a href="https://github.com/copyright" class="user-mention">@copyright</a> 2010 Evan Leybourn<br>
+<a href="https://github.com/license" class="user-mention">@license</a> GNU General Public License</p>
+
+<p>This file is part of Book Catalogue.</p>
+
+<p>Book Catalogue is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+<p>Book Catalogue is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with Book Catalogue.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+
+<p>This is an open source Android application. Please feel free to fork, bug fix 
+and commit back. </p>
+
+<p>This is a simple book catalogue application, to store a list of your books. 
+Books can be added either manually, by ISBN, or by barcode. </p>
+
+<p>You should have received a copy of the GNU General Public License
+along with Book Catalogue.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+
+<p>This is an open source Android application. Please feel free to fork, bug fix 
+and commit back. </p>
+
+<p>This is a simple book catalogue application, to store a list of your books. 
+Books can be added either manually, by ISBN, or by barcode. </p>
+
+<p>Features include;</p>
+
+<ul>
+<li>The obvious; you can add, edit, and display a list of books</li>
+<li>Books can be sorted by Author or Title. </li>
+<li>Books can be automatically added by typing in the ISBN or scanning the 
+barcode. It will search Google Books for details (and download a thumbnail). 
+It will search more sites as I add them. </li>
+<li>Multiple Books lists (or bookshelves). For example I like to keep my Doctor Who
+books separate from my normal fiction books. </li>
+<li>You can search for a book by title, author or series.</li>
+<li>When adding or editing books author, series and publisher should display a 
+suggestion list</li>
+<li>When downloading book information, authors and titles are converted to proper
+case. e.g. "The murder on the links" becomes "Murder on the Links, The"</li>
+<li>Using ISBN or Barcode scanning will also download a thumbnail (if available)</li>
+</ul>
+
+<p>new in 5.1.0</p>
+
+<ul>
+<li>Italian translation (Eugenio Davolio)</li>
+<li>Spanish translation (Jos� M. Galdo)</li>
+<li>Turkish translations (Emir Sari)</li>
+<li>Ability to archive only new/updated books and to exclude covers (or books)</li>
+<li>Better thumbnail size in lists for high density screens</li>
+<li>Added options to see books by author/series at Amazon</li>
+<li>Many bug fixes</li>
+</ul>
+
+<p>new in 5.0.5</p>
+
+<ul>
+<li>Style 'Added date' is now in descending order for Android 2.2+</li>
+<li>Performance improvements for Android 2.2+</li>
+<li>pass all book details to editor even if some required details not found</li>
+<li>Bug fixes</li>
+</ul>
+
+<p>new in 5.0.4</p>
+
+<ul>
+<li>New field: Language</li>
+<li>Translation updates (Imkal)</li>
+<li>Code cleanups</li>
+<li>Scanner info sent in 'Help'-&gt;'Send Info'</li>
+</ul>
+
+<p>new in 5.0.3</p>
+
+<ul>
+<li>Bug fix: 'duplicate' series no longer incorrectly causing errors</li>
+<li>Bug fix: Prevent editing series and formats in list if empty</li>
+<li>Bug fix: Ensure default bookshelf is really set when adding books</li>
+<li>Bug fix: Handle broken android versions that do not accept null number format for progress dialogs</li>
+<li>French Translation update (Imkal)</li>
+</ul>
+
+<p>new in 5.0.1/2</p>
+
+<ul>
+<li>Bug fix: Author text in 'Search Internet' now correct colour</li>
+<li>Bug fix: goodreads sync no longer causes crash if not registered</li>
+<li>Updated icons to match marketplace images</li>
+</ul>
+
+<p>new in 5.0.0</p>
+
+<ul>
+<li>A non-editable view of book details, with 'fling' support! (See "Other Preferences") (Nick Silin)</li>
+<li>Archiving (Backup &amp; Import) of entire catalogue, including books, covers, preferences and styles</li>
+<li>Updated interface with Action Bar support for usability and to work better on devices without menu buttons</li>
+<li>Support for pic2shop scanner (better for fixed focus, low light and in front-facing cameras)</li>
+<li>goodreads now appears in main menu if you authorize it</li>
+<li>Check internet connection earlier when trying to scan books</li>
+<li>Add greater granularity to book list header info preference</li>
+<li>Better ASIN search support</li>
+<li>More French translation updates (Imkal &amp; Djiko)</li>
+<li>More German translation updates (Robert Wetzlmayr)</li>
+<li>More Russian translation updates (Nick Silin)</li>
+<li>Internal changes in anticipation of an improved tablet interface</li>
+<li>Bug fixes</li>
+</ul>
+
+<p>new in 4.2.3</p>
+
+<ul>
+<li>Improve handling of invalid ISBNs when sending to goodreads</li>
+<li>Other minor bug fixes</li>
+</ul>
+
+<p>new in 4.2.2</p>
+
+<ul>
+<li>Fix tiling of background image for some Android versions</li>
+<li>Better handling of incompatible scanner apps</li>
+<li>Send more details on crash or when asking for help</li>
+<li>Cleanup of layouts (Nick Silin)</li>
+<li>Bug fixes</li>
+</ul>
+
+<p>new in 4.2.1</p>
+
+<ul>
+<li>Fix crash when expanding list items and using 'Expand All'</li>
+</ul>
+
+<p>new in 4.2</p>
+
+<ul>
+<li>Date-Picker that supports dates down to 0AD as well as partial dates</li>
+<li>HTML descriptions display correctly with click to edit</li>
+<li>Preference for pre-selecting whole image when cropping</li>
+<li>Preference for auto-rotating images from camera</li>
+<li>Preference to use external cropping tool (experimental)</li>
+<li>Added more options to the options menus</li>
+<li>More reliable date handling on import/export/sync</li>
+<li>French translation updates (Imkal)</li>
+<li>German translation updates (Robert Wetzlmayr)</li>
+<li>Russian translation updates (Nick Silin)</li>
+<li>Updated OK/Cancel button positions to conform to current Android standards</li>
+<li>Fix handling of duplicate anthology titles</li>
+<li>Full keyboard available when entering ASINs</li>
+<li>Keeps 5 previous export files</li>
+<li>Better detection of 'changes' when editing books</li>
+<li>Support for a wider range of Gallery and file browsers</li>
+<li>Various import bugs fixed</li>
+<li>Various code cleanups and NPEs fixed</li>
+<li>Internal: prep for fragments by separating message delivery from activities</li>
+<li>Internal: one database connection for all activities and threads</li>
+</ul>
+
+<p>new in 4.1.5</p>
+
+<ul>
+<li>improved import robustness</li>
+<li>fixed bug introduced by 'comma-in-bookshelf' bug fix</li>
+</ul>
+
+<p>new in 4.1.4</p>
+
+<ul>
+<li>minor bug fix in bookshelf maintenance</li>
+</ul>
+
+<p>new in 4.1.3</p>
+
+<ul>
+<li>fix for long-standing bug during rotation while editing a book</li>
+<li>fix for  for long-standing bug in date parsing when in non-english locales</li>
+</ul>
+
+<p>new in 4.1.2</p>
+
+<ul>
+<li>Translation updates (Robert Wetzlmayr)</li>
+<li>Bug fix for 'read' date import from goodreads</li>
+</ul>
+
+<p>new in 4.1.1</p>
+
+<ul>
+<li>Fix bug relating to commas in bookshelf names creating extra shelves</li>
+<li>Removed use of onBackPressed to ensure compatible with Android 1.6</li>
+<li>Clarified strings in 'back' code</li>
+</ul>
+
+<p>new in 4.1</p>
+
+<ul>
+<li>new style options: location and date read</li>
+<li>sharing can now send via any app that advertises the interface (eg. mail)</li>
+<li>if fields have been edited, and 'back' is pressed, ask the user for confirmation</li>
+<li>assume book is read when importing from goodreads if the user has rated it</li>
+<li>change install location to avoid problems with encrypted SD cards</li>
+<li>changes to French translations</li>
+<li>bug fixes in file import and data import</li>
+</ul>
+
+<p>new in 4.0.7</p>
+
+<ul>
+<li>Fix bug in Google Books URL causing wrong books to be returned</li>
+<li>Re-prioritize data sources based on reliability and the data returned</li>
+<li>Make Comments field auto-resize</li>
+<li>Show recent authors in author pop-down list</li>
+<li>Minor bug fixes</li>
+</ul>
+
+<p>new in 4.0.6</p>
+
+<ul>
+<li>When adding books, scanning or typing an existing ISBN allows you the option to edit the book.</li>
+<li>Allow ASINs to be manually entered as well as ISBNs</li>
+<li>German translation updates</li>
+<li>Bug fixes when cropping cover images</li>
+</ul>
+
+<p>new in 4.0.5</p>
+
+<ul>
+<li>fix bug when updating books</li>
+</ul>
+
+<p>new in 4.0.4</p>
+
+<ul>
+<li>search now searches series and anthology data</li>
+<li>allows non-numeric data entry in series position</li>
+<li>better sorting of leading numerics in series position</li>
+<li>various esoteric bugs fixed</li>
+</ul>
+
+<p>new in 4.0.3</p>
+
+<ul>
+<li>ISBNs are now validated when searching or scanning (new beep sound and related preference)</li>
+<li>Loaned &amp; Not Loaned list now includes all books</li>
+<li>Added preference to hide list headers (for small phones) </li>
+<li>Restored functionality to use current bookshelf when adding book</li>
+<li>FastScroller sizing improved</li>
+<li>Fixed various bugs</li>
+</ul>
+
+<p>new in 4.0.2</p>
+
+<ul>
+<li>Fixed: Tiled backgrounds now tile correctly. Really.</li>
+<li>Fixed: Crash when rapidly scrolling very large book lists</li>
+<li>Fixed: Crash resulting from intermittent android bug in android 2.2-2.3.</li>
+<li>Fixed: Blank screen in classic view that occurs after prior FC</li>
+</ul>
+
+<p>new in 4.0.1</p>
+
+<ul>
+<li>Added: preference to completely disable background bitmap</li>
+<li>Added: book counts to book lists</li>
+<li>Fixed: crash when expanding/collapsing empty lists</li>
+<li>Fixed: tiled background bitmap is no longer stretched in some android versions</li>
+<li>Fixed: crash in classic book list if certain fields were hidden</li>
+<li>Fixed: crash when dragging only author or series above top of list</li>
+<li>Fixed: problem with goodreads and UNICODE characters in bookshelf names</li>
+<li>Fixed: problem caused by using old shortcuts to start app</li>
+<li>Fixed: rare crash when returning from scanning or adding books</li>
+<li>Fixed: rare crash when interacting with goodreads</li>
+<li>Fixed: rare crash when returning to Task list from other application</li>
+</ul>
+
+<p>new in 4.0</p>
+
+<ul>
+<li>goodreads support including
+
+<ul>
+<li>import</li>
+<li>export</li>
+<li>search</li>
+</ul>
+</li>
+<li>new front screen</li>
+<li>new catalogue view which:
+
+<ul>
+<li>is much faster for large libraries</li>
+<li>has many new list styles</li>
+<li>allows user-defined list styles</li>
+</ul>
+</li>
+<li>a 'hints' system (not available everywhere yet)</li>
+<li>Better text searching using FTS
+
+<ul>
+<li>allows for searches like 'food -apples' to search for any book mentioning 'food' but not 'apples'</li>
+</ul>
+</li>
+<li>Thumbnail cache</li>
+<li>Smoother scrolling of lists with thumbnails</li>
+<li>More bug fixes</li>
+<li>More bugs introduced</li>
+<li>email bug reports after application crashes </li>
+</ul>
+
+<p>TODO: goodreads IMPORT
+TODO: Disable thumbnail cache if no external media?
+TODO: User preference to disable thumbnail cache</p>
+
+<p>new in v3.8.1</p>
+
+<ul>
+<li>Italian translation added</li>
+<li>Crash during searching fixed</li>
+<li>Crash when entering locations fixed</li>
+</ul>
+
+<p>New in v3.8</p>
+
+<ul>
+<li>Fixed several defects (including multiple author's and author prefix/suffix's)</li>
+<li>Fixed issue with thumbnail resolutions from LibraryThing</li>
+<li>Changed the "Add Book" menu options to be submenu</li>
+<li>The database backup has been renamed for clarity</li>
+</ul>
+
+<p>New in v3.7
+Hint: The export function will create an export.csv file on the sdcard</p>
+
+<ul>
+<li>You can crop cover thumbnails (both from the menu and after taking a camera image)</li>
+<li>You can tweet about a book directly from the book edit screen.</li>
+<li>Sort by Date Published added</li>
+<li>Will check for network connection prior to searching for details (new permission required)</li>
+<li>Fixed crash when opening search results</li>
+</ul>
+
+<p>New in v3.6.2</p>
+
+<ul>
+<li>Optionally restrict "Sort By Author" to only the first Author (where there are multiple listed)</li>
+<li>Minor bug fixes</li>
+</ul>
+
+<p>New in v3.6 / v3.6.1</p>
+
+<ul>
+<li>The LibraryThing Key will be verified when added</li>
+<li>When entering ISBN's manually, each button with vibrate the phone slightly</li>
+<li>When automatically updating fields click on each checkbox twice will give you the option to override existing fields (rather than populate only blank fields)</li>
+<li>Fixed a crash when exporting over 2000 books</li>
+<li>Orphan loan records will now be correctly managed </li>
+<li>The Amazon search will now look for English, French, German, Italian and Japanese versions</li>
+<li>Fixed several reports defects</li>
+<li>Fixed bug in moving to SD Card</li>
+</ul>
+
+<p>New in v3.5.6</p>
+
+<ul>
+<li>Fixed bug in moving to SDcard (2.2 and above only)</li>
+<li>Fixed defect in the "All Books" bookshelf (French version only)</li>
+</ul>
+
+<p>New in v3.5.5</p>
+
+<ul>
+<li>Add by ISBN also works to Amazon ASIN (use the android keyboard not the onscreen buttons) </li>
+</ul>
+
+<p>New in v3.5.4</p>
+
+<ul>
+<li>French translation available</li>
+<li>There is an option to create a duplicate book (requested by Vinika)</li>
+<li>Fixed errors caused by failed upgrades</li>
+<li>Fixed errors caused by trailing spaces in bookshelf names</li>
+</ul>
+
+<p>New in v3.5.3</p>
+
+<ul>
+<li>Fixes for honeycomb tablets</li>
+<li>Fixes several reported crashes</li>
+</ul>
+
+<p>New in v3.5</p>
+
+<ul>
+<li>Sorting by Author has been fixed (it will correctly sort series)</li>
+<li>A new sort option "Sort by Author Given Name" has been added</li>
+<li>You can delete books directly from the edit book screen.</li>
+<li>Minor fixes to the import process</li>
+</ul>
+
+<p>New in v3.4 - Most updates courtesy of Grunthos</p>
+
+<ul>
+<li>Multiple Authors per book (Editing a book now displays an author button which takes the user to a new activity for managing the authors of this book.)</li>
+<li>Multiple Series per book (Editing a book now displays an series button which takes the user to a new activity for managing the series of this book.)</li>
+<li>Fetches series (and other stuff) from LibraryThing</li>
+<li>Can now make global changes to Author and Series (Access this feature via the catalogue screen; long-click on an author or series name Editing can also be accessed while editing series or authors in an individual books.)</li>
+<li>Can replace a cover thumbnail from a different edition via LibraryThing. (Access this via long-clicking the cover while editing the book. It will display a gallery of thumbnails; clicking on the small thumbnail will display a larger version. Clicking on the larger version will select it.)</li>
+<li>Does concurrent ISBN searches at Amazon, Google and LibraryThing (it's faster)</li>
+<li>Displays a progress dialog while searching for a book on the internet.</li>
+<li>Adding by Amazon's ASIN is supported on the "Add by ISBN" page</li>
+<li>Duplicate books allowed, with a warning message</li>
+<li>User-selectable fields when reloading data from internet (eg. just update authors).</li>
+<li>Unsaved edits are retained when rotating the screen.</li>
+<li>Changed the ISBN data entry screen when the device is in landscape mode.</li>
+<li>Displays square brackets around the series name when displaying a list of books.</li>
+<li>Suggestions available when searching</li>
+<li>Removed the need for contacts permission. Though it does mean you will need to manually enter everyone you want to loan to.</li>
+<li>Preserves <em>all</em> open groups when closing application.</li>
+<li>The scanner and book search screens remain active after a book has been added or a search fails. It was viewed that this more closely represents the work-flow of people adding or scanning books.</li>
+<li>Import &amp; Export improvements</li>
+<li>Bug fixes for the 'collapse/expand' button, series selection/de-selection</li>
+<li>Bug fixes for sorting of book titles, series and authors.</li>
+<li>Ensure that search results can now be sorted correctly. Expanding, eg, an author name in search results will just show matching books.</li>
+</ul>
+
+<p>New in v3.3 - Updates courtesy of Grunthos</p>
+
+<ul>
+<li>The application should be significantly faster now - Fixed a bug with database index creation</li>
+<li>The thumbnail can be rotated in both directions now</li>
+<li>You can zoom in the thumbnail to see full detail</li>
+<li>The help page will redirect to the, more frequently updated, online wiki</li>
+<li>Dollar signs in the text fields will no longer FC on import/export<br>
+</li>
+</ul>
+
+<p>New in v3.2</p>
+
+<ul>
+<li>Books can now be automatically added by searching for the author name and book title</li>
+<li>Updating thumbnails, genre and description fields will also search by author name and title is the isbn does not exist</li>
+<li>Expand/Collapse all bug fixed</li>
+<li>The search query will be shown at the top of all search screens</li>
+</ul>
+
+<p>New in v3.1</p>
+
+<ul>
+<li>The audiobook checkbox has been replaced with a format selector (inc. paperback, hardcover, companion etc)</li>
+<li>When adding books the current bookshelf will be selected as the default bookshelf</li>
+<li>Genre/Subject and Description fields have been added (Requested by Tosh) and will automatically populate based on Google Books and Amazon information</li>
+<li>The save button will always be visible on the edit book screen</li>
+<li>Searching for a single space will clear the search results page</li>
+<li>The Date Picker will now appear in a popup in order to save space on the screen (Requested by several people)</li>
+<li>To improve speed when sorting by title, the titles will be broken up by the first character. Remember prefixes such as "the" and "a" are listed after the title, e.g. "The Trigger" becomes "Trigger, The"</li>
+</ul>
+
+<p>New in v3.0.1</p>
+
+<ul>
+<li>Export bug fixed</li>
+<li>Further enhancements to the new ISBN screen</li>
+<li>Filtering by bookshelf on title view is now fixed</li>
+<li>There is now an  when sorting by Series (thanks Vinikia)</li>
+<li>App will now search all fields (Thanks Michael)</li>
+</ul>
+
+<p>New in v3.0</p>
+
+<ul>
+<li>Added app2sd support (2.2 users only)</li>
+<li>You can now assign books to multiple bookshelves (requested by many people)</li>
+<li>A .nomedia file will be automatically created which will stop the thumbnails showing up in the gallery (thanks Brandon)</li>
+<li>The "Add Book by ISBN" page has been redesigned to be simpler and more stable (thanks Vinikia)</li>
+<li>The export file is now formatted correctly (.csv) (thanks glohr)</li>
+<li>You will be prompted to backup your books on a regular basis </li>
+</ul>
+
+<p>New in v2.9
+Tip: If you long click on a book title on the main list you can delete it
+Tip: If you want to see all books, change the bookshelf to "All Books"
+Tip: You can find the correct barcode for many modern paperbacks on the inside cover</p>
+
+<ul>
+<li>There is now a "Sort by Unread" option, as well as a "read" icon on the main list (requested by Angel)</li>
+<li>If you long click on the (?) thumbnail you can now select a new thumbnail from the gallery (requested by Giovanni)</li>
+<li>Bookshelves, loaned books and anthology titles will now import correctly</li>
+</ul>
+
+<p>New in v2.8
+Don't forget you can hide any of the new fields that you do not want to see. </p>
+
+<ul>
+<li>Fixed several crashing defects when adding books</li>
+<li>Added Autocompleting Location Field (For Cam)</li>
+<li>Added Read Start &amp; Read End Fields (For Robert)</li>
+<li>Added an Audiobook Checkbox Field (For Ted)</li>
+<li>Added a Book Signed Checkbox Field (For me)</li>
+<li>Series Number now support decimal figures (Requested by Beth)</li>
+<li>List price now support decimal figures (Requested by eleavings)</li>
+<li>Fixed Import Crashes (Thanks Roydalg) </li>
+<li>Fixed several defects for Android 1.6 users - I do not have a 1.6 device to 
+test on so please let me know if you discover any errors</li>
+</ul>
+
+<p>New in v2.7</p>
+
+<ul>
+<li>Minor enhancements</li>
+<li>Online help has been written</li>
+<li>Thumbnails can now be hidden just like any other field (Thanks Martin)</li>
+<li>You can also rotate thumbnails; useful for thumbnails taken with the camera</li>
+<li>Bookshelves will appear in the menu immediately (Thanks Martin/Julia)</li>
+</ul>
+
+<p>New in v2.6</p>
+
+<ul>
+<li>There is now support to record books as anthologies and it's titles.</li>
+<li>There is experimental support to automatically populate the anthology titles</li>
+<li>You can now take photos for the book cover (long click on the thumbnail in edit)</li>
+</ul>
+
+<p>New in v2.5</p>
+
+<ul>
+<li>There is a new Admin option (Field Visibility) to hide unused fields</li>
+<li>"All Books" should now be saved as a bookshelf preference correctly</li>
+<li>When adding books the bookshelf will default to your currently selected 
+bookshelf (Thanks Martin)</li>
+</ul>
+
+<p>New in v2.4.2</p>
+
+<ul>
+<li>You can now delete individual thumbnails by holding on the image and 
+selecting delete.</li>
+</ul>
+
+<p>New in v2.4</p>
+
+<ul>
+<li>Adding books will now (finally) search Amazon</li>
+<li>A field for list price has been included (Requested by Brenda)</li>
+<li>You can bulk update the thumbnails for all books with ISBN's from the Admin 
+page</li>
+</ul>
+
+<p>New in v2.3</p>
+
+<ul>
+<li>The book thumbnail now appears in the list view</li>
+<li>Emailing the developer now works from the admin page</li>
+<li>The Change Bookshelf option is now more obvious (Thanks Mike)</li>
+<li>The exports have been renamed to csv, use the correct published date and are 
+now unicode safe (Thanks Mike)</li>
+</ul>
+
+<p>New in v2.2.</p>
+
+<ul>
+<li>There are two additional sort functions, by series and by loaned (Request from N4ppy)</li>
+<li>Your bookshelf and current location will be saved when you exit (Feedback from Martin)</li>
+<li>Minor interface improvements when sorting by title </li>
+</ul>
+
+<p>New in v2.1</p>
+
+<ul>
+<li>Your sort order will be automatically saved when to close the 
+application (Requested by Martin)</li>
+<li>There is a new "about this app" view available from the administration 
+tabs (Also from Martin)</li>
+</ul>
+
+<p>New in v2.0</p>
+
+<ul>
+<li>There is a new tabbed "edit" interface to simplify editing books. </li>
+<li>The new comments tab also includes a notes field where you can add personal 
+notes for any book (Requested by Luke).</li>
+<li>The new loaned books tab allows you to record books loaned to friends. This 
+will lookup your phone contacts to pre-populate the list (Requested by Luke)</li>
+<li>Scanned books that already exist in the database (based on ISBN) will no 
+longer be added (Identified by Colin)</li>
+<li>After adding a book, the main view will now scroll to a appropriate location. </li>
+<li>Searching has been made significantly faster.</li>
+</ul>
+
+<p>New in v1.10</p>
+
+<ul>
+<li>Fixed a crash on the phone (SQL Exception) </li>
+</ul>
+
+<p>New in v1.09</p>
+
+<ul>
+<li>Amazon unfortunately doesn’t allow using their web services (search) on any 
+mobile devices, so this has been disabled until I can come up with a work-around.</li>
+</ul>
+
+<p>New in v1.08</p>
+
+<ul>
+<li>Add by ISBN will now search Amazon as well as Google Books (thanks Sue)</li>
+<li>The series field will attempt to guess the value based on Amazon data </li>
+<li>Fixed an issue for books where the date of publication is just a year</li>
+</ul>
+
+<p>New in v1.07</p>
+
+<ul>
+<li>Fixes a crash if zxing (barcode scanner) if not installed (as found by Jesse)</li>
+<li>Adds a book count number to the main page (as requested by Keridel)</li>
+<li>The administration page now has a paypal donation link. Please use :-)</li>
+</ul>
+
+<p>New in v1.06</p>
+
+<ul>
+<li>Import / Export and Manage Bookshelves have been moved to an admin page.</li>
+<li>Bug fixes in the Sort by Title view</li>
+<li>The options menu has been enhanced</li>
+</ul>
+
+<p>New in v1.04</p>
+
+<ul>
+<li>There is now an option in the main menu to export all data to the SDCard. 
+This will be saved as a tab separated file in the bookCatalogue directory.</li>
+<li>There is now an option in the main menu to import data from the SDCard. 
+The import function, expects a file in the same format, location and name
+as the export function created. </li>
+<li>Improvements have been made to the search results screen to make it more 
+obvious</li>
+</ul>
+
+<p>New in v1.03</p>
+
+<ul>
+<li>Authors like "Marianne De Pierres" and "Ursula Le Guin" are now listed 
+correctly. They will list as;
+  De Pierres, Marianne
+  Le Guin, Ursula</li>
+</ul>
+
+<p>New in v1.02</p>
+
+<ul>
+<li>The, An, and A should be listed after the title. e.g. "The Trigger" becomes
+"Trigger, The"</li>
+<li>Books lists should sort by Series, Series #, then Author (or Title)</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/dklisiaris/bibliography-android/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/dklisiaris/bibliography-android/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/dklisiaris/bibliography-android"></a> is maintained by <a href="https://github.com/dklisiaris">dklisiaris</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-60418692-5");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
